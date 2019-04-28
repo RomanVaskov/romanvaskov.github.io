@@ -1,0 +1,216 @@
+html, body{
+  margin: 0;
+  padding: 0;
+  font-family: Arial;
+  box-sizing: border-box;
+
+}
+
+/* ----------Начало header----------- */
+.header{
+  width: 100%;
+  height: 887px;
+  background-image: url(../img/header_bg.jpg);
+  background-repeat: no-repeat;
+  /* background-size: cover; */
+  background-position: center;
+  
+}
+.header-content{
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 30px;
+}
+
+/* ------Навигация начало------ */
+.navigation ul{
+  list-style-type: none;
+  padding: 0;
+  margin-top: 65px;
+}
+.navigation ul li{
+  display: inline-block;
+  margin-right: 143px;
+}
+.navigation ul li:last-child{
+  margin-right: 30px;
+}
+.navigation ul li a{
+  text-decoration: none;
+  color:  #ffffff;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 20px;
+  text-align: left;
+}
+.navigation ul li a:hover{
+  text-decoration: underline;
+}
+/* ------Навигация конец------- */
+
+/* -----Текст в header--------- */
+.banner{
+  width: 420px;
+  margin-top: 61px;
+}
+.banner .title{
+  color:  #ffffff;
+  font-size: 52px;
+  font-weight: 400;
+  line-height: 62px;
+  text-align: left;
+  text-shadow: 0px 1px 1px #2e6b82;
+  padding-bottom: 19px;
+}
+.banner .description{
+  color:  #ffffff;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: left;
+  padding-left: 2px;
+  text-shadow: 0px 1px 1px #357d98;
+  width: 389px;
+  letter-spacing: 0.1px;
+}
+/* -----Текст в header конец---- */
+/* ------------Конец header--------------- */
+
+
+/* ------------Начало main---------------- */
+.main{
+  padding-top: 108px;
+  padding-bottom: 88px;
+}
+.main-content{
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.main-content::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+.main_aside{
+  font-family: Arial;
+  color:  #fe992a;
+  font-size: 20px;
+  font-style: italic;
+  line-height: 28px;
+  text-align: left;
+  float: left;
+  width: 267px;
+  padding-right: 40px;
+  padding-bottom: 130px;
+  border-right: 1px solid #eaeaea;
+}
+.main_aside p{
+  margin: 0;
+}
+.main_middle{
+  float: right;
+  width: 590px;
+  margin-left: 50px;
+}
+.main_middle h3{
+  color:  #fe992a;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+.main_middle p{
+  color:  #737c85;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: left;
+}
+.main_middle p a{
+  color:  #737c85;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 28px;
+}
+/* ------------Конец main------------------ */
+
+
+/* ------------Начало footer--------------- */
+.footer{
+  background-image: url(../img/footer-bg.png);
+  background-color: #e66e6b;
+  background-repeat: repeat;
+  background-size: cover;
+  padding-top: 45px;
+  padding-bottom: 180px;
+  width: 100%;
+  color: #ffffff;
+}
+.footer ul li{
+  margin-bottom: 10px;
+  line-height: 18px;
+}
+.footer h3{
+  margin-top: 0;
+	font-weight: bold;
+	font-size: 18px;
+	margin-bottom: 8px;
+}
+.footer a{
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 14px;
+}
+.footer a:hover{
+  color: #ffffff;
+  text-decoration: underline;
+}
+.footer-content{
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.footer ul{
+  list-style-type: none;
+  padding: 0;
+}
+.contacts {
+  float: left;
+  width: 230px;
+  margin-right: 75px;
+}
+.contacts ul{
+  margin: 0;
+}
+.contacts ul h3{
+  margin-top: 30px;
+}
+.services{
+  float: left;
+  margin-right: 59px;
+
+}
+.markets{
+  float: left;
+  margin-right: 61px;
+}
+.hseq{
+  float: left;
+  margin-right: 64px;
+}
+.about{
+  float: left;
+  margin-right: 81px;
+}
+.careers{
+  float: left;
+}
+.footer::after{
+  content: "";
+  display: table;
+  clear: both;
+}
